@@ -1,0 +1,60 @@
+genome_id	genome_name	accession	annotation	feature_type	patric_id	refseq_locus_tag	alt_locus_tag	uniprotkb_accession	start	end	strand	na_length	gene	product	figfam_id	plfam_id	pgfam_id	go	ec	pathway
+1327949.5	Mycobacterium phage Bo4	KC787107	PATRIC	CDS	fig|1327949.5.peg.1				1	136	-	136		hypothetical protein						
+1327949.5	Mycobacterium phage Bo4	KC787107	PATRIC	CDS	fig|1327949.5.peg.2	Bo4_001			133	354	-	222		Phage protein						
+1327949.5	Mycobacterium phage Bo4	KC787107	PATRIC	CDS	fig|1327949.5.peg.3	Bo4_002			448	774	-	327		Phage-associated HNH homing endonuclease # Phage intron	FIG01115130					
+1327949.5	Mycobacterium phage Bo4	KC787107	PATRIC	CDS	fig|1327949.5.peg.4	Bo4_003			798	1040	-	243		Phage protein						
+1327949.5	Mycobacterium phage Bo4	KC787107	PATRIC	CDS	fig|1327949.5.peg.5	Bo4_004			1139	1822	-	684		hypothetical protein						
+1327949.5	Mycobacterium phage Bo4	KC787107	PATRIC	CDS	fig|1327949.5.peg.6	Bo4_005			1825	2109	-	285		Phage protein						
+1327949.5	Mycobacterium phage Bo4	KC787107	PATRIC	CDS	fig|1327949.5.peg.7	Bo4_006			2166	2663	-	498		Phage protein						
+1327949.5	Mycobacterium phage Bo4	KC787107	PATRIC	CDS	fig|1327949.5.peg.8	Bo4_008			2746	3189	-	444		Phage protein						
+1327949.5	Mycobacterium phage Bo4	KC787107	PATRIC	CDS	fig|1327949.5.peg.9	Bo4_009			3186	3296	-	111		hypothetical protein						
+1327949.5	Mycobacterium phage Bo4	KC787107	PATRIC	CDS	fig|1327949.5.peg.10	Bo4_0010			3293	3937	-	645		Crossover junction endodeoxyribonuclease RuvC (EC 3.1.22.4) # Pham415			PGF_00674240	GO:0008821|crossover junction endodeoxyribonuclease activity	3.1.22.4|Crossover junction endodeoxyribonuclease	
+1327949.5	Mycobacterium phage Bo4	KC787107	PATRIC	CDS	fig|1327949.5.peg.11	Bo4_0011			3880	4320	-	441		Phage protein						
+1327949.5	Mycobacterium phage Bo4	KC787107	PATRIC	CDS	fig|1327949.5.peg.12	Bo4_0012			4317	4661	-	345		Phage protein						
+1327949.5	Mycobacterium phage Bo4	KC787107	PATRIC	CDS	fig|1327949.5.peg.13	Bo4_0013			4658	4978	-	321		hypothetical protein						
+1327949.5	Mycobacterium phage Bo4	KC787107	PATRIC	CDS	fig|1327949.5.peg.14	Bo4_0014			4975	5169	-	195		hypothetical protein						
+1327949.5	Mycobacterium phage Bo4	KC787107	PATRIC	CDS	fig|1327949.5.peg.15	Bo4_0015			5177	5548	-	372		hypothetical protein			PGF_07320869			
+1327949.5	Mycobacterium phage Bo4	KC787107	PATRIC	CDS	fig|1327949.5.peg.16				5618	5746	-	129		Phage protein						
+1327949.5	Mycobacterium phage Bo4	KC787107	PATRIC	CDS	fig|1327949.5.peg.17	Bo4_0016			5749	6282	-	534		Phage protein						
+1327949.5	Mycobacterium phage Bo4	KC787107	PATRIC	CDS	fig|1327949.5.peg.18	Bo4_0017			6285	7709	-	1425		hypothetical protein	FIG00000102		PGF_08225224			
+1327949.5	Mycobacterium phage Bo4	KC787107	PATRIC	CDS	fig|1327949.5.peg.19	Bo4_0018			7706	8791	-	1086		Phage exonuclease			PGF_12827595			
+1327949.5	Mycobacterium phage Bo4	KC787107	PATRIC	CDS	fig|1327949.5.peg.20	Bo4_0019			8788	8940	-	153		Phage protein						
+1327949.5	Mycobacterium phage Bo4	KC787107	PATRIC	CDS	fig|1327949.5.peg.21	Bo4_0020			8924	9262	-	339		Phage protein						
+1327949.5	Mycobacterium phage Bo4	KC787107	PATRIC	CDS	fig|1327949.5.peg.22	Bo4_0021			9274	9423	-	150		Phage protein						
+1327949.5	Mycobacterium phage Bo4	KC787107	PATRIC	CDS	fig|1327949.5.peg.23	Bo4_0022			9420	9770	-	351		Phage exonuclease (ACLAME 70)						
+1327949.5	Mycobacterium phage Bo4	KC787107	PATRIC	CDS	fig|1327949.5.peg.24	Bo4_0023			9767	9949	-	183		Phage protein						
+1327949.5	Mycobacterium phage Bo4	KC787107	PATRIC	CDS	fig|1327949.5.peg.25	Bo4_0024			9949	10485	-	537		Phage protein (ACLAME 863)						
+1327949.5	Mycobacterium phage Bo4	KC787107	PATRIC	CDS	fig|1327949.5.peg.26	Bo4_0025			10548	10946	-	399		hypothetical protein						
+1327949.5	Mycobacterium phage Bo4	KC787107	PATRIC	CDS	fig|1327949.5.peg.27	Bo4_0026			10943	11188	-	246		Phage protein # Pham122						
+1327949.5	Mycobacterium phage Bo4	KC787107	PATRIC	CDS	fig|1327949.5.peg.28	Bo4_0027			11129	11860	+	732		Integrase	FIG00638284					
+1327949.5	Mycobacterium phage Bo4	KC787107	PATRIC	CDS	fig|1327949.5.peg.29	Bo4_0028			11857	12474	-	618		Phage protein						
+1327949.5	Mycobacterium phage Bo4	KC787107	PATRIC	CDS	fig|1327949.5.peg.30	Bo4_0029			12471	12728	-	258		Phage protein # Pham934						
+1327949.5	Mycobacterium phage Bo4	KC787107	PATRIC	CDS	fig|1327949.5.peg.31	Bo4_0030			12796	13146	-	351		hypothetical protein						
+1327949.5	Mycobacterium phage Bo4	KC787107	PATRIC	CDS	fig|1327949.5.peg.32	Bo4_0031			13172	14380	-	1209		Mycobacteriophage lysis protein, LysB # Pham73	FIG01306511					
+1327949.5	Mycobacterium phage Bo4	KC787107	PATRIC	CDS	fig|1327949.5.peg.33	Bo4_0032			14380	15696	-	1317		Phage tail tape measure protein	FIG00011468					
+1327949.5	Mycobacterium phage Bo4	KC787107	PATRIC	CDS	fig|1327949.5.peg.34	Bo4_0033			15757	15951	-	195		Phage protein						
+1327949.5	Mycobacterium phage Bo4	KC787107	PATRIC	CDS	fig|1327949.5.peg.35	Bo4_0034			15951	16226	-	276		Phage protein						
+1327949.5	Mycobacterium phage Bo4	KC787107	PATRIC	CDS	fig|1327949.5.peg.36	Bo4_0035			16226	16408	-	183		Phage protein						
+1327949.5	Mycobacterium phage Bo4	KC787107	PATRIC	CDS	fig|1327949.5.peg.37	Bo4_0036			16411	16731	-	321		Phage protein						
+1327949.5	Mycobacterium phage Bo4	KC787107	PATRIC	CDS	fig|1327949.5.peg.38	Bo4_0037			16746	18881	-	2136		hypothetical protein	FIG00508058					
+1327949.5	Mycobacterium phage Bo4	KC787107	PATRIC	CDS	fig|1327949.5.peg.39	Bo4_0038			18881	19315	-	435		Phage protein						
+1327949.5	Mycobacterium phage Bo4	KC787107	PATRIC	CDS	fig|1327949.5.peg.40	Bo4_0039			19326	20462	-	1137		Phage tail protein	FIG00508058					
+1327949.5	Mycobacterium phage Bo4	KC787107	PATRIC	CDS	fig|1327949.5.peg.41	Bo4_0040			20459	20920	-	462		hypothetical protein						
+1327949.5	Mycobacterium phage Bo4	KC787107	PATRIC	CDS	fig|1327949.5.peg.42	Bo4_0041			20920	22674	-	1755		hypothetical protein	FIG00006386					
+1327949.5	Mycobacterium phage Bo4	KC787107	PATRIC	CDS	fig|1327949.5.peg.43	Bo4_0042			22674	23846	-	1173		Phage minor tail protein (ACLAME 548)						
+1327949.5	Mycobacterium phage Bo4	KC787107	PATRIC	CDS	fig|1327949.5.peg.44	Bo4_0043			23846	27859	-	4014		hypothetical protein	FIG00011468		PGF_08225224			
+1327949.5	Mycobacterium phage Bo4	KC787107	PATRIC	CDS	fig|1327949.5.peg.45	Bo4_0044			27859	28236	-	378		hypothetical protein						
+1327949.5	Mycobacterium phage Bo4	KC787107	PATRIC	CDS	fig|1327949.5.peg.46	Bo4_0045			28245	28754	-	510		hypothetical protein	FIG00638284					
+1327949.5	Mycobacterium phage Bo4	KC787107	PATRIC	CDS	fig|1327949.5.peg.47	Bo4_0046			28855	29469	-	615		Phage tail tube protein	FIG00019508					
+1327949.5	Mycobacterium phage Bo4	KC787107	PATRIC	CDS	fig|1327949.5.peg.48	Bo4_0047			29466	29894	-	429		Phage protein						
+1327949.5	Mycobacterium phage Bo4	KC787107	PATRIC	CDS	fig|1327949.5.peg.49	Bo4_0048			29906	30169	-	264		Phage protein						
+1327949.5	Mycobacterium phage Bo4	KC787107	PATRIC	CDS	fig|1327949.5.peg.50	Bo4_0049			30156	30512	-	357		Phage protein # Pham503						
+1327949.5	Mycobacterium phage Bo4	KC787107	PATRIC	CDS	fig|1327949.5.peg.51	Bo4_0050			30512	31009	-	498		Phage protein # Pham538						
+1327949.5	Mycobacterium phage Bo4	KC787107	PATRIC	CDS	fig|1327949.5.peg.52	Bo4_0051			31021	31248	-	228		Phage protein						
+1327949.5	Mycobacterium phage Bo4	KC787107	PATRIC	CDS	fig|1327949.5.peg.53	Bo4_0052			31285	32220	-	936		hypothetical protein	FIG00016372		PGF_08225224			
+1327949.5	Mycobacterium phage Bo4	KC787107	PATRIC	CDS	fig|1327949.5.peg.54	Bo4_0053			32267	32809	-	543		hypothetical protein	FIG01304444					
+1327949.5	Mycobacterium phage Bo4	KC787107	PATRIC	CDS	fig|1327949.5.peg.55	Bo4_0054			32928	33134	-	207		Phage protein						
+1327949.5	Mycobacterium phage Bo4	KC787107	PATRIC	CDS	fig|1327949.5.peg.56	Bo4_0055			33131	35920	-	2790		hypothetical protein	FIG00638284					
+1327949.5	Mycobacterium phage Bo4	KC787107	PATRIC	CDS	fig|1327949.5.peg.57	Bo4_0056			35921	37690	-	1770		hypothetical protein	FIG01958841					
+1327949.5	Mycobacterium phage Bo4	KC787107	PATRIC	CDS	fig|1327949.5.peg.58	Bo4_0057			37432	38964	-	1533		hypothetical protein	FIG01304530					
+1327949.5	Mycobacterium phage Bo4	KC787107	PATRIC	CDS	fig|1327949.5.peg.59	Bo4_0058			38936	39280	-	345		hypothetical protein						
