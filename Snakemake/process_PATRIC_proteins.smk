@@ -1,10 +1,12 @@
 configfile: 'config/config.yaml'
 
-import glob, os
+import glob, os, time
 
+start = time.time()
 genomes = [os.path.basename(file) for file in glob.glob(config["genomes_folder"]+ "/*")]
+end = time.time()
 
-print(genomes)
+print('{} seconds to list genomes'.format(end-start))
 
 
 rule all:

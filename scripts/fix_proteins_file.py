@@ -43,9 +43,8 @@ def parse_fasta(ifile, ofile, lcl):
             # Check lcl presence
             if "lcl|" in record.id:
                 os.system("touch {}".format(lcl))
-                check = False
-
-            seqs.append(record)
+            else:
+                seqs.append(record)
 
     SeqIO.write(seqs, ofile, "fasta")
 
