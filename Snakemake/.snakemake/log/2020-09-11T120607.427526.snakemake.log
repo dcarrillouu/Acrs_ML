@@ -1,0 +1,2 @@
+SyntaxError in line 11 of /home/dani/Desktop/papers/Gussov et al 2020/Acrs_ML/Snakemake/process_PATRIC_proteins.smk:
+Unexpected keyword expand in rule definition (process_PATRIC_proteins.smk, line 11)

@@ -1,0 +1,143 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 2
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	all
+	7	fix_fasta
+	8
+Resources before job selection: {'_cores': 2, '_nodes': 9223372036854775807}
+Ready jobs (7):
+	fix_fasta
+	fix_fasta
+	fix_fasta
+	fix_fasta
+	fix_fasta
+	fix_fasta
+	fix_fasta
+Selected jobs (2):
+	fix_fasta
+	fix_fasta
+Resources after job selection: {'_cores': 0, '_nodes': 9223372036854775805}
+
+[Fri Sep 11 14:48:06 2020]
+rule fix_fasta:
+    input: /home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/test/genomes/1000561.3/1000561.3.PATRIC.faa
+    output: /home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/test/fixed_PATRIC_proteins/1000561.3.PATRIC.fixed.faa
+    jobid: 3
+    wildcards: genome=1000561.3
+
+
+[Fri Sep 11 14:48:06 2020]
+rule fix_fasta:
+    input: /home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/test/genomes/907491.3/907491.3.PATRIC.faa
+    output: /home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/test/fixed_PATRIC_proteins/907491.3.PATRIC.fixed.faa
+    jobid: 4
+    wildcards: genome=907491.3
+
+Full Traceback (most recent call last):
+  File "/home/dani/miniconda3/lib/python3.7/site-packages/snakemake/executors/__init__.py", line 2189, in run_wrapper
+    edit_notebook,
+  File "/home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/Snakemake/process_PATRIC_proteins.smk", line 43, in __rule_fix_fasta
+  File "/home/dani/miniconda3/lib/python3.7/site-packages/snakemake/shell.py", line 205, in __new__
+    raise sp.CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command 'set -euo pipefail;  python ../scripts/fix_proteins_file.py -i /home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/test/genomes/907491.3/907491.3.PATRIC.faa-o /home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/test/fixed_PATRIC_proteins/907491.3.PATRIC.fixed.faa' returned non-zero exit status 1.
+
+[Fri Sep 11 14:48:06 2020]
+Error in rule fix_fasta:
+Full Traceback (most recent call last):
+  File "/home/dani/miniconda3/lib/python3.7/site-packages/snakemake/executors/__init__.py", line 2189, in run_wrapper
+    edit_notebook,
+  File "/home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/Snakemake/process_PATRIC_proteins.smk", line 43, in __rule_fix_fasta
+  File "/home/dani/miniconda3/lib/python3.7/site-packages/snakemake/shell.py", line 205, in __new__
+    raise sp.CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command 'set -euo pipefail;  python ../scripts/fix_proteins_file.py -i /home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/test/genomes/1000561.3/1000561.3.PATRIC.faa-o /home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/test/fixed_PATRIC_proteins/1000561.3.PATRIC.fixed.faa' returned non-zero exit status 1.
+
+    jobid: 4
+    output: /home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/test/fixed_PATRIC_proteins/907491.3.PATRIC.fixed.faa
+    shell:
+        python ../scripts/fix_proteins_file.py -i /home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/test/genomes/907491.3/907491.3.PATRIC.faa-o /home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/test/fixed_PATRIC_proteins/907491.3.PATRIC.fixed.faa
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+[Fri Sep 11 14:48:06 2020]
+
+Error in rule fix_fasta:
+    jobid: 3
+    output: /home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/test/fixed_PATRIC_proteins/1000561.3.PATRIC.fixed.faa
+    shell:
+        python ../scripts/fix_proteins_file.py -i /home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/test/genomes/1000561.3/1000561.3.PATRIC.faa-o /home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/test/fixed_PATRIC_proteins/1000561.3.PATRIC.fixed.faa
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Full Traceback (most recent call last):
+  File "/home/dani/miniconda3/lib/python3.7/site-packages/snakemake/executors/__init__.py", line 2189, in run_wrapper
+    edit_notebook,
+  File "/home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/Snakemake/process_PATRIC_proteins.smk", line 43, in __rule_fix_fasta
+  File "/home/dani/miniconda3/lib/python3.7/site-packages/snakemake/shell.py", line 205, in __new__
+    raise sp.CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command 'set -euo pipefail;  python ../scripts/fix_proteins_file.py -i /home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/test/genomes/1000561.3/1000561.3.PATRIC.faa-o /home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/test/fixed_PATRIC_proteins/1000561.3.PATRIC.fixed.faa' returned non-zero exit status 1.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/dani/miniconda3/lib/python3.7/site-packages/snakemake/executors/__init__.py", line 529, in _callback
+    raise ex
+  File "/home/dani/miniconda3/lib/python3.7/concurrent/futures/thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/dani/miniconda3/lib/python3.7/site-packages/snakemake/executors/__init__.py", line 515, in cached_or_run
+    run_func(*args)
+  File "/home/dani/miniconda3/lib/python3.7/site-packages/snakemake/executors/__init__.py", line 2201, in run_wrapper
+    ex, lineno, linemaps=linemaps, snakefile=file, show_traceback=True
+snakemake.exceptions.RuleException: CalledProcessError in line 25 of /home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/Snakemake/process_PATRIC_proteins.smk:
+Command 'set -euo pipefail;  python ../scripts/fix_proteins_file.py -i /home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/test/genomes/1000561.3/1000561.3.PATRIC.faa-o /home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/test/fixed_PATRIC_proteins/1000561.3.PATRIC.fixed.faa' returned non-zero exit status 1.
+  File "/home/dani/miniconda3/lib/python3.7/site-packages/snakemake/executors/__init__.py", line 2189, in run_wrapper
+  File "/home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/Snakemake/process_PATRIC_proteins.smk", line 25, in __rule_fix_fasta
+
+Full Traceback (most recent call last):
+  File "/home/dani/miniconda3/lib/python3.7/site-packages/snakemake/executors/__init__.py", line 2189, in run_wrapper
+    edit_notebook,
+  File "/home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/Snakemake/process_PATRIC_proteins.smk", line 43, in __rule_fix_fasta
+  File "/home/dani/miniconda3/lib/python3.7/site-packages/snakemake/shell.py", line 205, in __new__
+    raise sp.CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command 'set -euo pipefail;  python ../scripts/fix_proteins_file.py -i /home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/test/genomes/907491.3/907491.3.PATRIC.faa-o /home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/test/fixed_PATRIC_proteins/907491.3.PATRIC.fixed.faa' returned non-zero exit status 1.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/dani/miniconda3/lib/python3.7/site-packages/snakemake/executors/__init__.py", line 529, in _callback
+    raise ex
+  File "/home/dani/miniconda3/lib/python3.7/concurrent/futures/thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/dani/miniconda3/lib/python3.7/site-packages/snakemake/executors/__init__.py", line 515, in cached_or_run
+    run_func(*args)
+  File "/home/dani/miniconda3/lib/python3.7/site-packages/snakemake/executors/__init__.py", line 2201, in run_wrapper
+    ex, lineno, linemaps=linemaps, snakefile=file, show_traceback=True
+snakemake.exceptions.RuleException: CalledProcessError in line 25 of /home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/Snakemake/process_PATRIC_proteins.smk:
+Command 'set -euo pipefail;  python ../scripts/fix_proteins_file.py -i /home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/test/genomes/907491.3/907491.3.PATRIC.faa-o /home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/test/fixed_PATRIC_proteins/907491.3.PATRIC.fixed.faa' returned non-zero exit status 1.
+  File "/home/dani/miniconda3/lib/python3.7/site-packages/snakemake/executors/__init__.py", line 2189, in run_wrapper
+  File "/home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/Snakemake/process_PATRIC_proteins.smk", line 25, in __rule_fix_fasta
+
+RuleException:
+CalledProcessError in line 25 of /home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/Snakemake/process_PATRIC_proteins.smk:
+Command 'set -euo pipefail;  python ../scripts/fix_proteins_file.py -i /home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/test/genomes/1000561.3/1000561.3.PATRIC.faa-o /home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/test/fixed_PATRIC_proteins/1000561.3.PATRIC.fixed.faa' returned non-zero exit status 1.
+  File "/home/dani/miniconda3/lib/python3.7/site-packages/snakemake/executors/__init__.py", line 2189, in run_wrapper
+  File "/home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/Snakemake/process_PATRIC_proteins.smk", line 25, in __rule_fix_fasta
+  File "/home/dani/miniconda3/lib/python3.7/site-packages/snakemake/executors/__init__.py", line 529, in _callback
+  File "/home/dani/miniconda3/lib/python3.7/concurrent/futures/thread.py", line 57, in run
+  File "/home/dani/miniconda3/lib/python3.7/site-packages/snakemake/executors/__init__.py", line 515, in cached_or_run
+  File "/home/dani/miniconda3/lib/python3.7/site-packages/snakemake/executors/__init__.py", line 2201, in run_wrapper
+RuleException:
+CalledProcessError in line 25 of /home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/Snakemake/process_PATRIC_proteins.smk:
+Command 'set -euo pipefail;  python ../scripts/fix_proteins_file.py -i /home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/test/genomes/907491.3/907491.3.PATRIC.faa-o /home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/test/fixed_PATRIC_proteins/907491.3.PATRIC.fixed.faa' returned non-zero exit status 1.
+  File "/home/dani/miniconda3/lib/python3.7/site-packages/snakemake/executors/__init__.py", line 2189, in run_wrapper
+  File "/home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/Snakemake/process_PATRIC_proteins.smk", line 25, in __rule_fix_fasta
+  File "/home/dani/miniconda3/lib/python3.7/site-packages/snakemake/executors/__init__.py", line 529, in _callback
+  File "/home/dani/miniconda3/lib/python3.7/concurrent/futures/thread.py", line 57, in run
+  File "/home/dani/miniconda3/lib/python3.7/site-packages/snakemake/executors/__init__.py", line 515, in cached_or_run
+  File "/home/dani/miniconda3/lib/python3.7/site-packages/snakemake/executors/__init__.py", line 2201, in run_wrapper
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/Snakemake/.snakemake/log/2020-09-11T144806.390696.snakemake.log
+unlocking
+removing lock
+removing lock
+removed all locks

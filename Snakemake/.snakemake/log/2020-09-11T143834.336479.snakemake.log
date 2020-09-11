@@ -1,0 +1,96 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 2
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	all
+	7	fix_fasta
+	8
+
+[Fri Sep 11 14:38:34 2020]
+rule fix_fasta:
+    input: /home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/test/genomes/1000561.3/1000561.3.PATRIC.faa
+    output: /home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/test/fixed_PATRIC_proteins/1000561.3.PATRIC.fixed.faa
+    jobid: 3
+    wildcards: genome=1000561.3
+
+
+[Fri Sep 11 14:38:34 2020]
+rule fix_fasta:
+    input: /home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/test/genomes/907491.3/907491.3.PATRIC.faa
+    output: /home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/test/fixed_PATRIC_proteins/907491.3.PATRIC.fixed.faa
+    jobid: 4
+    wildcards: genome=907491.3
+
+[Fri Sep 11 14:38:34 2020]
+Finished job 3.
+1 of 8 steps (12%) done
+[Fri Sep 11 14:38:34 2020]
+Finished job 4.
+2 of 8 steps (25%) done
+
+[Fri Sep 11 14:38:34 2020]
+rule fix_fasta:
+    input: /home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/test/genomes/562.5478/562.5478.PATRIC.faa
+    output: /home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/test/fixed_PATRIC_proteins/562.5478.PATRIC.fixed.faa
+    jobid: 2
+    wildcards: genome=562.5478
+
+[Fri Sep 11 14:38:34 2020]
+Finished job 2.
+3 of 8 steps (38%) done
+
+[Fri Sep 11 14:38:34 2020]
+rule fix_fasta:
+    input: /home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/test/genomes/287.832/287.832.PATRIC.faa
+    output: /home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/test/fixed_PATRIC_proteins/287.832.PATRIC.fixed.faa
+    jobid: 7
+    wildcards: genome=287.832
+
+[Fri Sep 11 14:38:34 2020]
+Finished job 7.
+4 of 8 steps (50%) done
+
+[Fri Sep 11 14:38:34 2020]
+rule fix_fasta:
+    input: /home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/test/genomes/596153.4/596153.4.PATRIC.faa
+    output: /home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/test/fixed_PATRIC_proteins/596153.4.PATRIC.fixed.faa
+    jobid: 5
+    wildcards: genome=596153.4
+
+[Fri Sep 11 14:38:34 2020]
+Finished job 5.
+5 of 8 steps (62%) done
+
+[Fri Sep 11 14:38:34 2020]
+rule fix_fasta:
+    input: /home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/test/genomes/999435.3/999435.3.PATRIC.faa
+    output: /home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/test/fixed_PATRIC_proteins/999435.3.PATRIC.fixed.faa
+    jobid: 6
+    wildcards: genome=999435.3
+
+[Fri Sep 11 14:38:34 2020]
+Finished job 6.
+6 of 8 steps (75%) done
+
+[Fri Sep 11 14:38:34 2020]
+rule fix_fasta:
+    input: /home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/test/genomes/1327949.5/1327949.5.PATRIC.faa
+    output: /home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/test/fixed_PATRIC_proteins/1327949.5.PATRIC.fixed.faa
+    jobid: 1
+    wildcards: genome=1327949.5
+
+[Fri Sep 11 14:38:34 2020]
+Finished job 1.
+7 of 8 steps (88%) done
+
+[Fri Sep 11 14:38:34 2020]
+localrule all:
+    input: /home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/test/fixed_PATRIC_proteins/1327949.5.PATRIC.fixed.faa, /home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/test/fixed_PATRIC_proteins/562.5478.PATRIC.fixed.faa, /home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/test/fixed_PATRIC_proteins/1000561.3.PATRIC.fixed.faa, /home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/test/fixed_PATRIC_proteins/907491.3.PATRIC.fixed.faa, /home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/test/fixed_PATRIC_proteins/596153.4.PATRIC.fixed.faa, /home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/test/fixed_PATRIC_proteins/999435.3.PATRIC.fixed.faa, /home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/test/fixed_PATRIC_proteins/287.832.PATRIC.fixed.faa
+    jobid: 0
+
+[Fri Sep 11 14:38:34 2020]
+Finished job 0.
+8 of 8 steps (100%) done
+Complete log: /home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/Snakemake/.snakemake/log/2020-09-11T143834.336479.snakemake.log

@@ -1,0 +1,3 @@
+KeyError in line 8 of /home/dani/Desktop/papers/Gussov et al 2020/Acrs_ML/Snakemake/process_PATRIC_proteins.smk:
+'plist'
+  File "/home/dani/Desktop/papers/Gussov et al 2020/Acrs_ML/Snakemake/process_PATRIC_proteins.smk", line 8, in <module>

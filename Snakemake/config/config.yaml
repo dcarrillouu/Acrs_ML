@@ -1,0 +1,8 @@
+# Specify the folder with all the raw PATRIC genomes
+genomes_folder: /home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/test/genomes
+  
+# Specify the folder to put the fixed PATRIC proteins
+fixed_proteins_folder: /home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/test/fixed_PATRIC_proteins
+
+# Specify the folder to store the genomes with "lcl|" proteins
+lcl_folder: /home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/test/fixed_PATRIC_proteins/lcl

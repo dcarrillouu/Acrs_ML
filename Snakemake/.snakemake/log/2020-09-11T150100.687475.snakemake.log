@@ -1,0 +1,46 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 2
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	all
+	7	fix_fasta
+	8
+
+[Fri Sep 11 15:01:00 2020]
+rule fix_fasta:
+    input: /home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/test/genomes/1000561.3/1000561.3.PATRIC.faa
+    output: /home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/test/fixed_PATRIC_proteins/1000561.3.PATRIC.fixed.faa, /home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/test/fixed_PATRIC_proteins/1000561.3.lcl
+    jobid: 3
+    wildcards: genome=1000561.3
+
+
+[Fri Sep 11 15:01:00 2020]
+rule fix_fasta:
+    input: /home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/test/genomes/907491.3/907491.3.PATRIC.faa
+    output: /home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/test/fixed_PATRIC_proteins/907491.3.PATRIC.fixed.faa, /home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/test/fixed_PATRIC_proteins/907491.3.lcl
+    jobid: 4
+    wildcards: genome=907491.3
+
+Waiting at most 5 seconds for missing files.
+MissingOutputException in line 17 of /home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/Snakemake/process_PATRIC_proteins.smk:
+Job completed successfully, but some output files are missing. Missing files after 5 seconds:
+/home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/test/fixed_PATRIC_proteins/1000561.3.lcl
+This might be due to filesystem latency. If that is the case, consider to increase the wait time with --latency-wait.
+  File "/home/dani/miniconda3/lib/python3.7/site-packages/snakemake/executors/__init__.py", line 544, in handle_job_success
+  File "/home/dani/miniconda3/lib/python3.7/site-packages/snakemake/executors/__init__.py", line 231, in handle_job_success
+Removing output files of failed job fix_fasta since they might be corrupted:
+/home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/test/fixed_PATRIC_proteins/1000561.3.PATRIC.fixed.faa
+Waiting at most 5 seconds for missing files.
+MissingOutputException in line 17 of /home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/Snakemake/process_PATRIC_proteins.smk:
+Job completed successfully, but some output files are missing. Missing files after 5 seconds:
+/home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/test/fixed_PATRIC_proteins/907491.3.lcl
+This might be due to filesystem latency. If that is the case, consider to increase the wait time with --latency-wait.
+  File "/home/dani/miniconda3/lib/python3.7/site-packages/snakemake/executors/__init__.py", line 544, in handle_job_success
+  File "/home/dani/miniconda3/lib/python3.7/site-packages/snakemake/executors/__init__.py", line 231, in handle_job_success
+Removing output files of failed job fix_fasta since they might be corrupted:
+/home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/test/fixed_PATRIC_proteins/907491.3.PATRIC.fixed.faa
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/Snakemake/.snakemake/log/2020-09-11T150100.687475.snakemake.log

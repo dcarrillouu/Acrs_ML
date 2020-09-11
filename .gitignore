@@ -1,0 +1,5 @@
+# ignore folder result of fixing patric proteins
+test/fixed_PATRIC_proteins
+
+scripts/__pycache__/
+Snakemake/.snakemake/

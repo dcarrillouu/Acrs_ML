@@ -1,0 +1,44 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 2
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	all
+	7	fix_fasta
+	8
+
+[Fri Sep 11 14:58:49 2020]
+rule fix_fasta:
+    input: /home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/test/genomes/1000561.3/1000561.3.PATRIC.faa
+    output: /home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/test/fixed_PATRIC_proteins/1000561.3.PATRIC.fixed.faa
+    jobid: 3
+    wildcards: genome=1000561.3
+
+
+[Fri Sep 11 14:58:49 2020]
+rule fix_fasta:
+    input: /home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/test/genomes/907491.3/907491.3.PATRIC.faa
+    output: /home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/test/fixed_PATRIC_proteins/907491.3.PATRIC.fixed.faa
+    jobid: 4
+    wildcards: genome=907491.3
+
+[Fri Sep 11 14:58:49 2020]
+Error in rule fix_fasta:
+    jobid: 3
+    output: /home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/test/fixed_PATRIC_proteins/1000561.3.PATRIC.fixed.faa
+    shell:
+        python ../scripts/fix_proteins_file.py -i /home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/test/genomes/1000561.3/1000561.3.PATRIC.faa -o /home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/test/fixed_PATRIC_proteins/1000561.3.PATRIC.fixed.faa 
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Fri Sep 11 14:58:49 2020]
+Error in rule fix_fasta:
+    jobid: 4
+    output: /home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/test/fixed_PATRIC_proteins/907491.3.PATRIC.fixed.faa
+    shell:
+        python ../scripts/fix_proteins_file.py -i /home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/test/genomes/907491.3/907491.3.PATRIC.faa -o /home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/test/fixed_PATRIC_proteins/907491.3.PATRIC.fixed.faa 
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/Snakemake/.snakemake/log/2020-09-11T145848.924995.snakemake.log

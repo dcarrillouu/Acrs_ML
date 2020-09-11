@@ -1,0 +1,44 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 2
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	all
+	7	fix_fasta
+	8
+
+[Fri Sep 11 15:07:10 2020]
+rule fix_fasta:
+    input: /home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/test/genomes/1000561.3/1000561.3.PATRIC.faa
+    output: /home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/test/fixed_PATRIC_proteins/1000561.3.PATRIC.fixed.faa
+    jobid: 3
+    wildcards: genome=1000561.3
+
+
+[Fri Sep 11 15:07:10 2020]
+rule fix_fasta:
+    input: /home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/test/genomes/562.5478/562.5478.PATRIC.faa
+    output: /home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/test/fixed_PATRIC_proteins/562.5478.PATRIC.fixed.faa
+    jobid: 2
+    wildcards: genome=562.5478
+
+[Fri Sep 11 15:07:10 2020]
+Error in rule fix_fasta:
+    jobid: 3
+    output: /home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/test/fixed_PATRIC_proteins/1000561.3.PATRIC.fixed.faa
+    shell:
+        mkdir -p /home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/test/fixed_PATRIC_proteins/lclpython ../scripts/fix_proteins_file.py -i /home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/test/genomes/1000561.3/1000561.3.PATRIC.faa -o /home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/test/fixed_PATRIC_proteins/1000561.3.PATRIC.fixed.faa -lcl /home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/test/fixed_PATRIC_proteins/lcl/1000561.3.lcl
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Fri Sep 11 15:07:10 2020]
+Error in rule fix_fasta:
+    jobid: 2
+    output: /home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/test/fixed_PATRIC_proteins/562.5478.PATRIC.fixed.faa
+    shell:
+        mkdir -p /home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/test/fixed_PATRIC_proteins/lclpython ../scripts/fix_proteins_file.py -i /home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/test/genomes/562.5478/562.5478.PATRIC.faa -o /home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/test/fixed_PATRIC_proteins/562.5478.PATRIC.fixed.faa -lcl /home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/test/fixed_PATRIC_proteins/lcl/562.5478.lcl
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /home/dani/Desktop/papers/Gussov_et_al_2020/Acrs_ML/Snakemake/.snakemake/log/2020-09-11T150710.356980.snakemake.log
